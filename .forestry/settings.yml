@@ -8,7 +8,7 @@ sections:
   path: docs/.vuepress
   label: config
   create: documents
-  match: "*.js"
+  match: "**/*"
   new_doc_ext: ''
 - type: document
   path: docs/.vuepress/config.js
