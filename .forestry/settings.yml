@@ -8,7 +8,7 @@ sections:
   path: docs
   label: docs
   create: all
-  match: "**/*.js"
+  match: "**/*"
 - type: directory
   path: docs/.vuepress
   label: config
