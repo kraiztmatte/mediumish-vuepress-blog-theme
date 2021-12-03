@@ -12,12 +12,9 @@ sections:
 - type: directory
   path: docs/.vuepress
   label: config
-  create: documents
+  create: all
   match: "**/*"
   new_doc_ext: app
-- type: document
-  path: docs/.vuepress/config.js
-  label: Config
 - type: directory
   path: docs/_posts
   label: Posts
