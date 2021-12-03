@@ -10,11 +10,11 @@ sections:
   create: all
   match: "**/*"
 - type: directory
-  path: docs/.vuepress
+  path: ''
   label: config
   create: all
   match: "**/*"
-  new_doc_ext: app
+  new_doc_ext: ''
 - type: directory
   path: docs/_posts
   label: Posts
