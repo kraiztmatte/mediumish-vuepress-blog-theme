@@ -5,11 +5,16 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: directory
+  path: docs
+  label: docs
+  create: all
+  match: "**/*"
+- type: directory
   path: docs/.vuepress
   label: config
   create: documents
   match: "**/*"
-  new_doc_ext: ''
+  new_doc_ext: app
 - type: document
   path: docs/.vuepress/config.js
   label: Config
