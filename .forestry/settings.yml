@@ -5,8 +5,8 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: document
+  label: Config
   path: docs/.vuepress/config.js
-  label: config
 - type: directory
   path: docs/_posts
   label: Posts
